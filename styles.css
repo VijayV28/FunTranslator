@@ -1,22 +1,61 @@
-:root{
-    
-    --container-color: #f9f9f9;
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
 
+:root{ 
+    --section-color: #374151;
+    --primary-color: #eab308;
+    --secondary-color: #0891b2;
 }
 
+body{
+    font-family: 'Dongle', sans-serif;
+}
 
+/* Top Section */
 
 .section-header{
+    background-color: var(--section-color);
+    text-align: center;
+}
 
-    background-color: var(--container-color);
-    
+.section-header ul{
+    padding-left: 0rem;
 }
 
 .head-img{
-    max-width: 150px;
-    max-height: 90px;
-    display: block;
-    margin: auto;
+    padding: 2rem 0rem;
+    max-width: 40px;
+    max-height: 40px;
     object-fit: scale-down;
-    background-color: ;
+}
+
+.list-style-empty{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+}
+
+.list-inline span{
+    position: relative;
+    bottom: 40px;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: var(--primary-color);
+}
+
+
+/* Text Areas */
+
+.section-textarea{
+    text-align: center;
+}
+
+.section-textarea ul{
+    padding-left: 0rem;
+
+}
+
+.textarea{
+    width: 20rem;
 }
