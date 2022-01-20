@@ -1,0 +1,22 @@
+:root{
+    
+    --container-color: #f9f9f9;
+
+}
+
+
+
+.section-header{
+
+    background-color: var(--container-color);
+    
+}
+
+.head-img{
+    max-width: 150px;
+    max-height: 90px;
+    display: block;
+    margin: auto;
+    object-fit: scale-down;
+    background-color: ;
+}
