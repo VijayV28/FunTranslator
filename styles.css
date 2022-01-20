@@ -49,6 +49,7 @@ body{
 
 .section-textarea{
     text-align: center;
+    padding-top: 2rem;
 }
 
 .section-textarea ul{
@@ -57,5 +58,19 @@ body{
 }
 
 .textarea{
-    width: 20rem;
+    width: 16rem;
+    height: 12rem;
+}
+
+
+
+/* Button */
+
+.btn-translate{
+    position: relative;
+    bottom: 6rem;
+    background-color: var(--section-color);
+    border: 2.3px solid var(--primary-color);
+    border-radius: 1rem 1rem;
+
 }
