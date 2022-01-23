@@ -8,6 +8,8 @@
     --secondary-color: #0891b2;
     --aboutsection-color: #d1d5db;
     --textarea-font: 'Open Sans', sans-serif;
+    --link-color: #111827;
+    --footer-color: #27272a;
 }
 
 body{
@@ -48,6 +50,12 @@ body{
     color: var(--primary-color);
 }
 
+/* Text area(combined) */
+.portion-textarea{
+    position: relative;
+    bottom: 5rem;
+}
+
 
 /* Text Areas */
 
@@ -67,7 +75,7 @@ body{
     resize: none;
     border: 2px solid var(--section-color);
     font-family: var(--textarea-font);
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.2;
     font-weight: bold;
 }
@@ -98,7 +106,7 @@ body{
 
 .btn-translate span{
     font-family: var(--textarea-font);
-    color: var(--primary-color);
+    color: var(--aboutsection-color);
     font-weight: bold;
 }
 
@@ -112,16 +120,101 @@ body{
     top: 11.6rem;
 }
 
+/* About Section */
 .section-about{
     max-width: 600px;
     margin: auto;
     text-align: center;
     background-color: var(--aboutsection-color);
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1rem 1.5rem 1rem;
+    border-radius: 0.35rem 0.35rem;
+    position: relative;
+    bottom: 2rem;
 }
 
 .section-about h2{
     font-weight: normal;
     font-family: var(--textarea-font);
-    font-size: 0.8rem;
+    font-size: 22px;
 }
+
+.section-about p{
+    font-size: 20px;
+    line-height: 1rem;
+    font-weight: 390;
+    text-align: center;
+    padding-bottom: 0.6rem;
+}
+
+
+/* Links */
+
+.link{
+    text-decoration: none;
+    color: var(--link-color);
+    font-weight: 400;
+}
+
+.link-primary{
+    border: 1.5px solid var(--section-color);
+    padding: 0.2rem 0.3rem;
+    background-color: var(--section-color);
+    color: var(--aboutsection-color);
+    border-radius: 0.4rem 0.4rem;
+    font-family: var(--textarea-font);
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.link-github{
+    text-decoration: none;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+/* Footer */
+
+.footer-section{
+    background-color: var(--footer-color);
+    padding: 1.5rem 0rem;
+    font-family: var(--textarea-font);
+    text-align: center;
+}
+
+
+
+.footer-section div{
+    font-weight: normal;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer-section ul{
+    text-align: center;
+}
+
+.footer-lines{
+    color: white;
+    position: relative;
+    left: 0.8px;
+}
+
+.footer-section .list-style-empty{
+    padding-left: 0rem;
+}
+
+.footer-section .link{
+    color: white;
+}
+
+.footer-section .list-inline{
+    font-size: 0.7rem;
+    padding: 0rem 0.5rem;
+    position: relative;
+    left: 0.8px;
+}
+
+/* .footer-section .footer-lines{
+    position: relative;
+    left: 5rem;
+} */

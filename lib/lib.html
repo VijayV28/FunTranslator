@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
     <title>Library</title>
 </head>
 <body>
@@ -12,11 +13,12 @@
     <section class="section-header">
         <ul class="list-style-empty">
             <li class="list-inline"><span>Banana</span></li>
-            <li class="list-inline"><img class="head-img" style="width: 10rem; heigh: 10rem" src="/images/banana.svg"/></li>
+            <li class="list-inline"><img class="head-img" src="/images/banana.svg"/></li>
             <li class="list-inline"><span>Translator</span></li>
         </ul>
     </section>
 
+    <div class="portion-textarea">
     <!-- Image on the button -->
     <div class="btn-image"><img src="/images/minion.png"></div>
 
@@ -24,33 +26,38 @@
     <!-- Translate Section -->
     <section class="section-textarea">
         <ul>
-            <textarea class="textarea textarea-input">Box 1</textarea>
+            <textarea class="textarea textarea-input" placeholder="Enter the text that you want to translate"></textarea>
             <button class="btn-translate"><span>Translate</span></button>
-            <textarea class="textarea textarea-output">Box 2</textarea>
+            <textarea class="textarea textarea-output" placeholder="The translated text will be displayed here"></textarea>
         </ul>
     </section>
+    </div>
 
     <!-- Details Section -->
     <section class="section-about">
-        <h2>What is a Banana Translator?</h2>
+        <h2>What is this about?</h2>
         <p>
-            Nothing much for now.
+            We all would've heard about <a class="link" href="https://en.wikipedia.org/wiki/Minions_(film)" target="_blank">Minions</a>. It is an animated film produced by Illumination Entertainment. Minions are small, yellow creatures who somehow ended up in New York. They speak in a language of their own called as the minionese or more commonly as the Banana language. This translator converts everything you want into their language. Hope this entertains you.
         </p>
+
+        <a class="link link-primary" href="/">View Source Code</a>
     </section>
     
 
     <!-- Source code -->
-    <a href="/">View Source code</a>
+    
 
-    <footer>
+    <footer class="footer-section">
         <div>Contact</div>
-        <ul>
-            <li>Email</li>
-            <li>Linkedin</li>
-            <li>Phone</li>
+        <ul class="list-style-empty">
+            <li class="list-inline"><a class="link" href="/">Email</a></li>
+            <span class="footer-lines">|</span>
+            <li class="list-inline"><a class="link" href="">Linkedin</a></li>
+            <span class="footer-lines">|</span>
+            <li class="list-inline"><a class="link" href="/">Phone</a></li>
         </ul>
 
-        <a href="/">github</a>
+        <a href="/" class="link-github"><i class="fa fa-github"></i>VijayV</a>
     </footer>
 
 </body>
