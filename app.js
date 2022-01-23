@@ -7,7 +7,7 @@ var outputSection = document.querySelector("#txtbox-output");
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 // Handling errors
-function errorHandler(){
+function errorHandler(error){
     console.log("error: " + error);
     alert("An error ("+error+") has occured. Try again later");
 }
